@@ -5,3 +5,12 @@ A Claude Code plugin with one skill, `trading-card-deck`. It's the process behin
 Start with `skills/trading-card-deck/SKILL.md`. To make a new deck, copy `examples/legimon/`, rewrite its `RULES.md` and `deck.json`, and follow the steps.
 
 Generating images needs the Codex CLI signed in with a ChatGPT account (`npm i -g @openai/codex`, then `codex login`). Without it, paste the generated prompts into ChatGPT by hand.
+
+## Install
+
+In Claude Code:
+
+    /plugin marketplace add allintz/card-deck-maker
+    /plugin install card-deck-maker@card-deck-maker
+
+Or copy `skills/trading-card-deck` into `~/.claude/skills/`.

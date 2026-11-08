@@ -1,0 +1,11 @@
+{
+  "name": "card-deck-maker",
+  "owner": { "name": "Alex Lintz" },
+  "plugins": [
+    {
+      "name": "card-deck-maker",
+      "source": "./",
+      "description": "Make and maintain an illustrated trading-card deck about real people: rules, researched card text, AI card art in a matching style, proofreading and publishing."
+    }
+  ]
+}
