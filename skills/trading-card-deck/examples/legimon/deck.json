@@ -1,0 +1,46 @@
+{
+  "_about": "LegíMon's deck config for scripts/build_prompt.py. Copy and edit for a new deck.",
+  "icons": {
+    "normal": "white circle with a black star",
+    "ground": "tan circle with a dark brown mountain peak (a triangle mountain, NOT a rock)",
+    "fairy": "pink circle with a white sparkle",
+    "grass": "green circle with a white leaf",
+    "rock": "brown circle with a gray rock",
+    "flying": "light-blue circle with a white wing",
+    "ghost": "purple circle with a white ghost",
+    "fighting": "orange circle with a fist",
+    "water": "blue circle with a water drop",
+    "dragon": "gold circle with a letter D",
+    "electric": "yellow circle with a lightning bolt",
+    "psychic": "violet circle with an eye",
+    "fire": "red-orange circle with a flame"
+  },
+  "colorless": "normal",
+  "body_colors": {
+    "normal": "warm neutral beige-gray", "ground": "tan and earthy brown", "fairy": "soft pink", "grass": "leafy green",
+    "rock": "stone brown", "flying": "sky blue", "ghost": "purple", "fighting": "orange", "water": "ocean blue",
+    "dragon": "gold", "electric": "yellow", "psychic": "violet", "fire": "red-orange"
+  },
+  "number_line": "No. {number:03d} · {nickname} LegíMon · {faction} · Born {born}",
+  "footer": "left 'LegíMon · {congress} · No. {number:03d} ★', right 'UNOFFICIAL FAN ART'",
+  "layouts": {
+    "regular": {
+      "intro": "Use your image generation tool to make ONE trading card image in exactly the same style, layout, fonts and proportions as the FIRST image I attached: portrait card, yellow outer border, title bar at top, big illustrated art window with a gold frame, then a gold number bar, a silver info strip, the ability and attack rows, weakness / resistance / retreat cost, a pale-yellow italic flavor box, and a tiny footer. Match the first image's layout exactly: no extra boxes around attacks and no vertical divider lines in the weakness row.",
+      "number_line_place": "Gold bar under the art"
+    },
+    "shiny": {
+      "intro": "Use your image generation tool to make ONE full-art holo trading card. Lay it out exactly like the FIRST image I attached: rainbow holo-foil background, the illustration filling the whole card, text panels laid over it.",
+      "keep_art": "Keep the illustration from the SECOND image (the same person, pose, outfit, props and holo background); redraw only the text layout so it follows the first image's format exactly, and add every section listed below. Put each text block (the info strip, the ability, each attack, the weakness / resistance / retreat row, and the flavor box) on its own light translucent rounded panel, exactly like the first image, with dark readable text.",
+      "number_line_place": "Directly under the name, small"
+    }
+  },
+  "illustration": "The illustration: a friendly, flattering cartoon of the person in the SECOND image (keep their real face, hair and look recognizable), shown waist-up, large, in the left or center foreground, smiling or determined,",
+  "outfit": {
+    "R": "They wear business clothes with at least one clearly RED item (a red tie, or a red blazer or dress) and nothing prominently blue: this card is a Republican.",
+    "D": "They wear business clothes with at least one clearly BLUE item (a blue tie, or a royal-blue blazer or dress) and nothing prominently red: this card is a Democrat.",
+    "I": "They wear business clothes with at least one clearly BLUE item, since they caucus with Democrats.",
+    "default": "They wear business clothes."
+  },
+  "art_rules": "No lab coats, scrubs or work clothes; show their job through a prop or the background. Bright, saturated comic illustration style like the first card. Every prop must make physical sense (held the right way round, facing the person using it).",
+  "closing": "Portrait orientation, about 5:7. The mood is friendly and positive: nobody chains, attacks or dominates anyone."
+}

@@ -1,0 +1,6 @@
+{
+  "name": "card-deck-maker",
+  "version": "0.1.0",
+  "description": "Make and maintain an illustrated trading-card deck about real people: rules, researched card text, AI card art in a matching style, proofreading and publishing. LegíMon (US senators and AI) is the worked example.",
+  "author": { "name": "Alex Lintz" }
+}

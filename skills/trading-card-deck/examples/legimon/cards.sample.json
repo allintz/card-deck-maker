@@ -1,0 +1,49 @@
+[
+  {
+    "number": 109,
+    "kind": "regular",
+    "name": "Abdul El-Sayed",
+    "stage": "SENATOR",
+    "hp": 10,
+    "types": ["normal"],
+    "nickname": "Public Option",
+    "faction": "D-Michigan",
+    "born": 1984,
+    "congress": "120th Congress",
+    "strip": "Senator-elect · Wayne County health director 2023–2025 · Detroit health director 2015–2017",
+    "ability": {"name": "Rhodes Scholar MD", "text": "Doctor and public health official who ran Detroit's health department. Will be the first Muslim U.S. senator."},
+    "attacks": [
+      {"cost": ["normal", "normal"], "name": "AI Under Democracy", "damage": 70, "text": "June 2026: the public takes an ownership stake in the biggest AI companies, regulated like public utilities."},
+      {"cost": ["normal", "normal", "normal"], "name": "AI Under Control", "damage": 150, "text": "Oct. 2026 plan: ban superintelligence, pause frontier AI, and create a Cabinet-level AI watchdog and AI safety emergency plan."}
+    ],
+    "weakness": {"type": "ground", "text": "Big Tech billionaires"},
+    "resistance": {"type": "fairy", "text": "Public health training −30"},
+    "retreat": 3,
+    "flavor": "Warns of “the growing existential risks of unrestrained artificial intelligence to humanity.”",
+    "scene": "a stethoscope around his neck over his suit, pressing a big glowing PAUSE button (two vertical bars) on a control console while a towering friendly robot made of light behind him freezes in place; the Detroit skyline and Renaissance Center at dusk",
+    "portrait": "https://commons.wikimedia.org/wiki/File:Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_(cropped).jpg (CC BY-SA 4.0, Conlan Houston)"
+  },
+  {
+    "number": 14,
+    "kind": "shiny",
+    "name": "Chuck Schumer",
+    "stage": "LEADER",
+    "hp": 450,
+    "types": ["dragon", "psychic"],
+    "nickname": "Convener",
+    "faction": "D-New York",
+    "born": 1950,
+    "congress": "119th Congress",
+    "strip": "Democratic Leader · Rules · Intelligence (ex officio) · House 1981–1999, Senate since 1999",
+    "ability": {"name": "Floor Barrage", "text": "Gave four AI floor speeches in Sept 2026 attacking Trump's hands-off stance."},
+    "attacks": [
+      {"cost": ["dragon"], "name": "Classified Briefing", "damage": 40, "text": "Sep 2026: called for a classified briefing for the whole Senate on catastrophic AI risks."},
+      {"cost": ["dragon", "dragon", "normal"], "name": "Insight Forums", "damage": 110, "text": "Convened nine all-Senate AI Insight Forums from Sep 2023, then a bipartisan Senate AI roadmap in May 2024."}
+    ],
+    "weakness": {"type": "dragon", "text": "Thune's floor control"},
+    "resistance": {"type": "normal", "text": "Calls to step down −30"},
+    "retreat": 2,
+    "flavor": "Brooklyn native, in Congress since 1981. Now warns of catastrophic AI risk: “The world is in danger.”",
+    "portrait": "the existing shiny card image (keep its illustration)"
+  }
+]
